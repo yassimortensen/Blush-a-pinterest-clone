@@ -1,0 +1,2 @@
+class PictureBoardsController < ApplicationController
+end
