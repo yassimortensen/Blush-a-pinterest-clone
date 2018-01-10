@@ -11,7 +11,7 @@
 end
 
 keywords = [
-  'Pastel & Pale', 'Window', 'City', 'Food', 'Blur', 'Nature', 'Flower', 'People', 'Portraits',
+  'Pastel & Pale', 'Window', 'City', 'Food', 'Blur', 'Nature', 'Flower', 'People',
   'Earth Tones', 'Flatlays', 'Textures', 'Neon', 'Colour', 'In Motion', 'Snow & Winter'
 ]
 
@@ -21,7 +21,7 @@ def create_pictures(array_of_boards, word, page_num)
   ##creates pictures and associates each picture with an existing board for that specific keyword
   array_of_photos.each do |photo|
     photo = Picture.create(
-      url: photo.urls.small,
+      url: photo.urls.regular,
       photographer_name: photo.user.name,
       photographer_link: "#{photo.user.links.html}?utm_source=Blush&utm_medium=referral",
       keyword: word

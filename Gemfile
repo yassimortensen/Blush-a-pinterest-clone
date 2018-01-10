@@ -7,6 +7,7 @@ end
 
 gem 'unsplash'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+gem 'active_model_serializers'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
