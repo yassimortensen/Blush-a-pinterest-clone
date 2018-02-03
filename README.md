@@ -1,25 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Welcome to Blush!
 
-Things you may want to cover:
+Blush is a WebApp that makes it easy to find new, professional images to inspire you. The app allows users to:
+  - Be greeted with a masonry layout of beautiful photos
+  - The ability to zoom in on each individual photo
+  - See their own boards of saved images, categorized by type
+  - Search for other users and see their saved boards of images
 
-* Ruby version
+This Blush API is seeded with images from the Unsplash database. See their documentation to create your own token to seed your own local db.
 
-* System dependencies
 
-* Configuration
+## GETTING STARTED ##
+- All of the gems you need to install are in the the Gemfile. Run the command `bundle install` in your terminal.
+- Run the command Rails S to launch a local server to view the site in your browser.
 
-* Database creation
+- React.js frontend can be found here: https://github.com/yassimortensen/Blush-a-pinterest-clone-frontend
 
-* Database initialization
+## AUTHORS ##
 
-* How to run the test suite
+- Yassi Mortensen - https://github.com/yassimortensen
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
-# Blush-a-pinterest-clone
+## LICENSE ##
+- Blush is released under the WeWork License.
